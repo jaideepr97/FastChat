@@ -28,7 +28,7 @@ API_ERROR_OUTPUT = "$ERROR$"
 TIE_DELTA = 0.1
 
 # Categories that need reference answers
-NEED_REF_CATS = ["math", "reasoning", "coding", "arena-hard-200"]
+NEED_REF_CATS = ["taxonomy", "math", "reasoning", "coding", "arena-hard-200"]
 
 # Extract scores from judgments
 two_score_pattern = re.compile("\[\[(\d+\.?\d*),\s?(\d+\.?\d*)\]\]")
